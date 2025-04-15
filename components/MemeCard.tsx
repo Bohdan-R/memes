@@ -31,6 +31,8 @@ export default function MemeCard({ meme }: MemeCardProps) {
         <Link
           className="bg-blue-500 hover:bg-blue-600 rounded px-2 py-1 ml-auto text-white transition-colors duration-300 ease-in-out"
           href={meme.imageUrl}
+          rel="noopener noreferrer"
+          target="_blank"
         >
           Go to meme
         </Link>
